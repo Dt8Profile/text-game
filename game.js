@@ -201,31 +201,31 @@ class Player {
 }
 
 const cave = new Location("Cave");
-cave.description = "a dark and mysterious cave with stalactites.";
+cave.description = "a dark and mysterious cave with stalactites";
 
 const forest = new Location("Forest");
-forest.description = " a lush green forest with tall trees and wildlife.";
+forest.description = " a lush green forest with tall trees and wildlife";
 
 const abandonedHut = new Location("Abandoned Hut");
-abandonedHut.description = "an abandoned hut with a thatched roof.";
+abandonedHut.description = "an abandoned hut with a thatched roof";
 
 const boatHouse = new Location("Boat House");
-boatHouse.description = "a small boat floating on a tranquil lake.";
+boatHouse.description = "a small boat floating on a tranquil lake";
 
 const starlitClearing = new Location("Starlit Clearing");
 starlitClearing.description =
-  "a serene clearing bathed in the soft light of twinkling stars, creating a peaceful atmosphere.";
+  "a serene clearing bathed in the soft light of twinkling stars, creating a peaceful atmosphere";
 
 const mysticalGrove = new Location("Mystical Grove");
 mysticalGrove.description =
-  "a magical grove filled with enchanting plants and mystical creatures.";
+  "a magical grove filled with enchanting plants and mystical creatures";
 
 const crypt = new Location("Crypt");
-crypt.description = "a dimly lit crypt with ancient tombs and eerie echoes.";
+crypt.description = "a dimly lit crypt with ancient tombs and eerie echoes";
 
 const lake = new Location("Lake");
 lake.description =
-  "a peaceful lake surrounded by lush greenery, with crystal-clear water reflecting the blue sky.";
+  "a peaceful lake surrounded by lush greenery, with crystal-clear water reflecting the blue sky";
 
 // Link the locations together
 cave.linkLocation("north", forest);
