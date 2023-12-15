@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Adventure Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-cover bg-center bg-fixed" style="background-image: url('background.jpg')">
+
+    <div class="flex items-center justify-center h-screen">
+        <div class="max-w-2xl mx-auto p-6 bg-gray-800 bg-opacity-70 rounded-lg shadow-md">
+            <div id="instructions" class="text-white mb-4">
+                <h2 class="text-2xl font-bold mb-2">Instructions</h2>
+                <p>Welcome to the Dark Adventure Game! Your goal is to explore different locations, interact with
+                    characters, and collect keys to win the game.</p>
+                <p>Use the commands (north, south, east, west) to navigate through the game. When you encounter a
+                    guardian, you must answer their question to proceed.</p>
+                <p>If you collect three keys, you win the game. Be careful, an incorrect answer will restart the game.
+                </p>
+            </div>
+
+            <div id="textarea" class="border rounded p-4 mb-4">
+                <!-- Content -->
+            </div>
+            <div id="keys-container" class="mb-4">
+                <div id="keys-display" class="flex space-x-2">
+                    <!-- Keys display -->
+                </div>
+            </div>
+            <div id="userInput-container">
+                <input type="text" id="userInput"
+                    class="w-full p-2 border rounded focus:outline-none focus:ring focus:border-blue-300 bg-gray-700 text-white"
+                    placeholder="Enter your command..." />
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
