@@ -357,7 +357,7 @@ document.addEventListener("keydown", function (event) {
         alert("That is not a valid command. Please try again.");
       }
 
-      // Move the winning condition check here
+     
       if (player.keys.length === 3) {
         alert(
           "Congratulations! You have collected three keys and won the game!"
@@ -374,7 +374,7 @@ function startGame() {
   displayLocationInfo(currentLocation);
 }
 
-// Add HTML elements for the keys display
+// HTML elements for the keys display
 const keysContainer = document.getElementById("keys-container");
 const keysDisplay = document.createElement("div");
 keysDisplay.id = "keys-display";
